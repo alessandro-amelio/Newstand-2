@@ -1,0 +1,13 @@
+<div class="update-article">
+  <div class="container">
+
+    <%= form_for(@user) do |f| %>    
+    <%= f.text_field :first_name %>
+    <%= f.text_field :last_name %>
+    <%= f.text_field :email %>
+
+      <%= f.submit "Save", :class => "btn-submit" %>
+    <% end %>
+
+  </div>
+</div>
